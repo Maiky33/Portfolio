@@ -1,0 +1,32 @@
+.KCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    cursor: pointer;
+
+    background-color: #6b6558;
+    width: 150px;
+    height: 200px;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+
+.KCard_image{    
+    width:150px;
+}
+
+.KCard_image:hover {
+    animation-name: left;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes left {
+    25%{transform: rotate(-10deg);}    
+    50%{transform: rotate(10deg);}
+    100%{transform: rotate(0deg);}
+}

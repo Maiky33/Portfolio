@@ -1,0 +1,16 @@
+.Knowledge{
+    background-color: #998775;
+    padding: 50px;
+}
+
+.GridCards{
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap:50px;
+    overflow: hidden;
+}
+
+.KnowledgeTitle{
+    font-size: 50px;
+}

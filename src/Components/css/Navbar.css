@@ -1,0 +1,31 @@
+.Nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #c2a480;
+
+    height: 80px;
+    padding: 0px 50px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.title{ 
+    font-size: 30px;
+}
+
+.Nav__List{ 
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.Nav__List li{
+    list-style: none;
+    cursor: pointer;
+}
+
+.Nav__List li:hover{    
+    color: #5f5348;
+}

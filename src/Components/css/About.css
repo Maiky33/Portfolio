@@ -1,0 +1,16 @@
+.About{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #998775;
+    padding: 50px;
+    font-size: 30px;
+    height: 300px;
+}
+
+.AboutGif{ 
+    transform: rotate(-15deg);
+    width:400px; 
+    height: 330px;
+    border-radius: 50%;
+}

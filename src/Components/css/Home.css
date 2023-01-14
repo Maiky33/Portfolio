@@ -1,0 +1,48 @@
+.Home{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: #998775;
+    height: 400px;
+}
+
+.Home_P_H1{  
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.Home__p{    
+    font-size: 30px;
+}
+
+
+.Home__H1{
+    display: block;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 18ch;
+    font-size: 60px;
+
+    animation: typings 2s steps(20),
+    blinks .1s infinite step-end alternate;
+    overflow: hidden;
+}
+
+@keyframes typings {
+    from {
+        width: 0;
+    }
+}
+@keyframes blinks {
+    from {
+        border-color: transparent;
+    }
+}
+
+
+.Foto{
+    transform: rotate(-45deg);
+    width: 400px;
+}

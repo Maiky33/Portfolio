@@ -1,0 +1,15 @@
+*{  
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.App{   
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    background-color: #403e3c;
+    color: #ececec;
+    padding: 30px;
+}
