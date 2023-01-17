@@ -3,15 +3,15 @@
     flex-direction: column;
     justify-content: space-around;
 
-    cursor: pointer;
-
     background-color: #6b6558;
     width: 150px;
     height: 200px;
     font-size: 20px;
     padding: 20px;
     border-radius: 15px;
+    
     text-align: center;
+    cursor: pointer; 
 }
 
 

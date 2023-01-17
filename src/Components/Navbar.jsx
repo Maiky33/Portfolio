@@ -13,8 +13,22 @@ const Navbar = () => {
     }
 
     const Clickknowledge = () => {  
-    const element = document.getElementById('knowledge')
+        const element = document.getElementById('knowledge')
         if (element) {  
+            element.scrollIntoView({behavior:"smooth"})
+        }
+    }
+
+    const ClickExperience = () => {   
+        const element = document.getElementById("Experience")
+        if (element) {
+            element.scrollIntoView({behavior:"smooth"})
+        }
+    }
+
+    const ClickContactMe = () => {    
+        const element = document.getElementById("ContactMe")
+        if (element) {    
             element.scrollIntoView({behavior:"smooth"})
         }
     }
@@ -24,9 +38,9 @@ const Navbar = () => {
             <p className="title">MyProtfolio</p>
             <ul className="Nav__List">    
                 <li onClick={()=>ClickAbout()}>About me</li>
-                <li onClick={()=>Clickknowledge()}>knowledge</li>
-                <li>Experience</li>
-                <li>Contact me</li>
+                <li onClick={()=>Clickknowledge()}>Skills</li>
+                <li onClick={()=>ClickExperience()}>Experience</li>
+                <li onClick={()=>ClickContactMe()}>Contact me</li>
             </ul>
         </div>
     );

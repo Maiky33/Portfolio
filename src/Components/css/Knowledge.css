@@ -1,6 +1,12 @@
 .Knowledge{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
     background-color: #998775;
     padding: 50px;
+    border-radius: 15px;
+    overflow: hidden;
 }
 
 .GridCards{

@@ -1,3 +1,7 @@
+import Landing from "./images/landing.jpeg"
+import Movea from "./images/MoveaApp.jpeg"
+import RickandMorty from "./images/RickandMorty.jpeg"
+import TaksList from "./images/TaksList.jpeg"
 
 export const DataKnowledgeCard = [   
     {   
@@ -44,5 +48,40 @@ export const DataKnowledgeCard = [
         id:9,
         image: "https://seeklogo.com/images/M/MySQL-logo-17DB4E5FD6-seeklogo.com.png",
         title: "MySQL"
+    }
+]
+
+
+export const DataExperienceCard = [ 
+    {   
+        id:1,
+        title: "Landing Page",
+        image: Landing,
+        website: "https://maiky33.github.io/LandingPage/",
+        repository: "https://github.com/Maiky33/LandingPage",
+        type:"Html Css"
+    },
+    {   
+        id:2,
+        title: "Movea App",
+        image:  Movea,
+        website: "https://maiky33.github.io/Movie-App-React/",
+        repository:"https://github.com/Maiky33/Movie-App-React",
+        type:"Frontend"
+    },
+    {   
+        id:3,
+        title: "Rick and Morty",
+        image: RickandMorty,
+        website: "https://maiky33.github.io/RickAndMorty/",
+        repository:"https://github.com/Maiky33/RickAndMorty",
+        type:"Frontend"
+    },
+    {   
+        id: 4,
+        title: "Tasks List",
+        image: TaksList,
+        repository:"https://github.com/Maiky33/TaksListFullStack",
+        type:"FullStack"
     }
 ]

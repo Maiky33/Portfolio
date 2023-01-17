@@ -1,0 +1,23 @@
+.ContactMe{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    background-color: #c2a480;
+    padding: 15px 50px;
+    border-radius: 5px;
+}
+
+.ContactMeTitle{    
+    font-size: 30px;
+}
+
+
+.ContactMe p{  
+    font-size: 20px;
+}
+
+.ContactMe p a{ 
+    color: #202020;
+    text-decoration: none;
+}

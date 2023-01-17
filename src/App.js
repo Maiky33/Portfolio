@@ -2,6 +2,8 @@ import Navbar from './Components/Navbar'
 import Home from './Components/Home';
 import About from './Components/About';
 import Knowledge from './Components/Knowledge'
+import Experience from './Components/Experience'
+import ContactMe from "./Components/ContactMe"
 import "./css/App.css"
 
 function App() {
@@ -12,6 +14,8 @@ function App() {
       <Home/>
       <About/>
       <Knowledge/>
+      <Experience/>
+      <ContactMe/>
     </div>
   );
 }
