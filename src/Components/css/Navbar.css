@@ -29,3 +29,42 @@
 .Nav__List li:hover{    
     color: #202020;
 }
+
+.BurgerIcon{
+    font-size: 40px;
+    display: none;
+}
+
+
+@media screen and (max-width:858px) {
+    .title{ 
+        display: none;
+    }
+    .Nav__List{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:628px) {  
+
+    .Nav__List{ 
+        display: none;
+    }
+
+    .title{ 
+        display: block;
+    } 
+    .BurgerIcon{    
+        display: block;
+    }
+}
+
+@media screen and (max-width:436px) {
+    .title{
+        font-size: 25px;
+    }
+    .Nav{  
+        overflow: hidden;
+        padding: 0px 30px;
+    }
+}

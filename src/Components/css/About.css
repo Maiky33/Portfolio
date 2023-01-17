@@ -16,3 +16,33 @@
     height: 330px;
     border-radius: 50%;
 }
+
+@media screen and (max-width:1468px) {
+    .About{ 
+        font-size: 25px;
+    }
+    .AboutGif{  
+        width:350px;
+        height: 280px;
+    }
+}
+
+@media screen and (max-width:1268px) {  
+    .About {
+        font-size: 25px;
+        gap: 30px;
+    }
+    
+    .AboutGif {
+        width: 300px;
+        height: 230px;
+    }
+} 
+
+@media screen and (max-width:1038px) {  
+    .About{ 
+        flex-direction: column-reverse;
+        height: auto;
+        gap: 30px;
+    }
+}

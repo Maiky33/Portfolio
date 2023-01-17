@@ -9,18 +9,17 @@ const ExperienceCard = ({ ECard }) => {
 
       <div className="Buttons_Type">
         <div className="Container_buttons">
-          <button className="Experience_buttons">
-            <a href={ECard.website} target="_blank" rel="noreferrer">
-              WebSite
-            </a>
-          </button>
-          <button className="Experience_buttons">
-            <a href={ECard.repository} target="_blank" rel="noreferrer">
-              Repository
-            </a>
-          </button>
+          
+          <a href={ECard.website} target="_blank" rel="noreferrer">
+            <button className="Experience_buttons">WebSite</button>
+          </a>
+          
+          <a href={ECard.repository} target="_blank" rel="noreferrer">
+            <button className="Experience_buttons">Repository</button>
+          </a>
+          
         </div>
-        <h2>{ECard.type}</h2>
+        <h2 className="type">{ECard.type}</h2>
       </div>
     </div>
   );

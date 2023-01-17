@@ -6,6 +6,7 @@
     background-color: #c2a480;
     padding: 15px 50px;
     border-radius: 5px;
+    overflow: hidden;
 }
 
 .ContactMeTitle{    

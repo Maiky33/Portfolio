@@ -1,4 +1,5 @@
 import "./css/Navbar.css"
+import {GoThreeBars} from "react-icons/go";
 
 const Navbar = () => { 
 
@@ -42,6 +43,7 @@ const Navbar = () => {
                 <li onClick={()=>ClickExperience()}>Experience</li>
                 <li onClick={()=>ClickContactMe()}>Contact me</li>
             </ul>
+            <GoThreeBars className="BurgerIcon"/>
         </div>
     );
 }

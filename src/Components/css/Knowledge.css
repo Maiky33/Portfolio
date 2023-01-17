@@ -20,3 +20,29 @@
 .KnowledgeTitle{
     font-size: 50px;
 }
+
+@media screen and (max-width:1264px) {
+    .GridCards{ 
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media screen and (max-width:1030px) {
+    .GridCards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width:780px) {
+    .GridCards {
+        height: 500px;
+        grid-template-columns: repeat(2, 1fr);
+        overflow-y: scroll;
+    }
+}
+
+@media screen and (max-width:538px) {
+    .GridCards{ 
+        grid-template-columns: repeat(1,1fr);
+    }
+}

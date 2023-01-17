@@ -47,3 +47,46 @@
     transform: rotate(-45deg);
     width: 400px;
 }
+
+
+@media screen and (max-width:1195px){
+ .Foto{ 
+    width: 350px;
+ }
+ .Home__H1{  
+    font-size: 45px;
+ }
+}
+
+@media screen and (max-width:973px) {  
+    .Foto {
+        width: 300px;
+    }
+    
+    .Home__H1 {
+        font-size: 35px;
+    }
+}
+@media screen and (max-width:785px) {
+
+    .Home{  
+        flex-direction:column-reverse;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .Home_P_H1{ 
+        align-items: center;
+    }
+
+    .Home__p{
+        font-size: 25px;
+    }
+    .Foto {
+        width: 250px;
+    }
+
+    .Home__H1 {
+        font-size: 25px;
+    }
+}  
