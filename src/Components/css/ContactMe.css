@@ -22,3 +22,34 @@
     color: #202020;
     text-decoration: none;
 }
+
+.CopyIcon{  
+    display: none;
+    font-size: 30px;
+}
+
+@media screen and (max-width:1098px) {
+
+    .CopyIcon {
+        display: block;
+    }
+    .Author_p{  
+        display: none;
+    }
+}
+
+@media screen and (max-width:778px) {
+    .ContactMeTitle{    
+        display:none;
+    }
+}
+@media screen and (max-width:570px) {
+    .CopyIcon {
+        display: none;
+    }
+    .ContactMe{ 
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        text-align: center;
+    }
+}
