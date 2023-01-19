@@ -48,7 +48,7 @@ const Navbar = () => {
   };
 
   return (
-    <div onClick={ClickMenuBurger} className="Nav">
+    <div className="Nav">
       
       <p className="title">MyProtfolio</p>
     
