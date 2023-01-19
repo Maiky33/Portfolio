@@ -17,6 +17,21 @@
 .ExperienceCard_image{
     width:400px;
     border-radius: 15px;
+    cursor: pointer;
+}
+
+.Experience_types{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #998775;
+    width: 400px;
+    height: 195px;
+    border-radius: 15px;
+    font-size: 30px;
+    cursor: pointer;
+    text-align: center;
+    
 }
 
 .Experience_buttons{    
@@ -27,6 +42,9 @@
     border: none;
     border-radius: 15px;
     cursor: pointer;
+}
+.Experience_buttons:hover{    
+    padding: 14px;
 }
 
 
@@ -48,6 +66,11 @@
     .ExperienceCard_image{  
         width: 350px;
     }
+    .Experience_types{
+        width: 350px;
+        height: 170px;
+        font-size: 25px;
+    }
     .Container_buttons{ 
         gap: 10px;
     }
@@ -60,9 +83,12 @@
     .ExperienceCard {
         width: 400px;
     }
-    
     .ExperienceCard_image {
         width: 400px;
+    }
+    .Experience_types {
+        width: 400px;
+        height: 195px;
     }
 }
 
@@ -74,6 +100,10 @@
     .ExperienceCard_image {
         width: 400px;
     }
+    .Experience_types {
+        width: 400px;
+        height: 195px;
+    }
 }
 
 @media screen and (max-width:532px) {
@@ -83,6 +113,13 @@
     .ExperienceCard_image {
         width: 260px;
     }
+
+    .Experience_types {
+        width: 260px;
+        height: 127px;
+        font-size: 20px;
+    }
+
     .type{
         display: none;
     }
@@ -99,8 +136,14 @@
     }
     .ExperienceCard_image {
         width: 200px;
-        
     }
+
+    .Experience_types {
+        width: 200px;
+        height: 97px;
+        font-size: 15px;
+    }
+
     .ExperienceCard_title{  
         text-align: center;
     }
