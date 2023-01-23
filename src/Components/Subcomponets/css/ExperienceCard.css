@@ -22,16 +22,33 @@
 
 .Experience_types{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 10px;
     background-color: #998775;
     width: 400px;
     height: 195px;
     border-radius: 15px;
-    font-size: 30px;
+    font-size: 20px;
     cursor: pointer;
     text-align: center;
-    
+    overflow: hidden;
+}
+
+.Container_items{
+    display: flex;
+    gap: 5px;
+}
+
+.item_tecnologe{    
+    background-color: #403e3c;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.unableItem{  
+    display: none;
 }
 
 .Experience_buttons{    
@@ -69,7 +86,6 @@
     .Experience_types{
         width: 350px;
         height: 170px;
-        font-size: 25px;
     }
     .Container_buttons{ 
         gap: 10px;
@@ -117,7 +133,7 @@
     .Experience_types {
         width: 260px;
         height: 127px;
-        font-size: 20px;
+        font-size: 13px;
     }
 
     .type{
@@ -141,7 +157,7 @@
     .Experience_types {
         width: 200px;
         height: 97px;
-        font-size: 15px;
+        font-size: 10px;
     }
 
     .ExperienceCard_title{  

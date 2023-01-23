@@ -60,8 +60,8 @@ export const DataExperienceCard = [
         website: "https://maiky33.github.io/LandingPage/",
         repository: "https://github.com/Maiky33/LandingPage",
         type: "Frontend",
-        technologies: "Html Css"
-        
+        Html: "Html",
+        Css: "Css"
     },
     {   
         id:2,
@@ -69,8 +69,11 @@ export const DataExperienceCard = [
         image:  Movea,
         website: "https://maiky33.github.io/Movie-App-React/",
         repository:"https://github.com/Maiky33/Movie-App-React",
-        type:"Frontend",
-        technologies: "Html Css JavaScript React.js"
+        type: "Frontend",
+        Html: "Html",
+        Css: "Css",
+        JavaScript: "JavaScript",
+        React: "React.js"
     },
     {   
         id:3,
@@ -79,14 +82,23 @@ export const DataExperienceCard = [
         website: "https://maiky33.github.io/RickAndMorty/",
         repository:"https://github.com/Maiky33/RickAndMorty",
         type:"Frontend",
-        technologies: "Html Css JavaScript React.js"
+        Html: "Html",
+        Css: "Css",
+        JavaScript: "JavaScript",
+        React: "React.js"
     },
     {   
         id: 4,
         title: "Tasks List",
         image: TaksList,
         repository:"https://github.com/Maiky33/TaksListFullStack",
-        type:"FullStack",
-        technologies: "Html Css JavaScript React.js Node Express MySQL"
+        type: "FullStack",
+        Html: "Html",
+        Css: "Css",
+        JavaScript: "JavaScript",
+        React: "React.js",
+        Node: "Node",
+        Express: "Express",
+        MySQL: "MySQL"
     }
 ]
