@@ -1,31 +1,75 @@
 .ContactMe{ 
     display: flex;
+    flex-direction: column;
+    height: auto;
     justify-content: space-between;
     align-items: center;
-    gap: 10px;
-    background-color: #c2a480;
+    gap: 30px;
+    background-color: #161934;
     padding: 15px 50px;
-    border-radius: 5px;
+    border-radius: 16px;
     overflow: hidden;
 }
 
 .ContactMeTitle{    
-    font-size: 30px;
+    font-size: 50px;
 }
 
+.formContactMeContainer{    
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.formImputsContainer{  
+    width: 500px; 
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 20px;
+
+}
+.formImputContactMe{  
+    font-size: 16px;
+    outline: none;  
+    height: 40px;
+    padding-left: 15px;
+    border-radius: 8px;
+    border: none;
+
+}
+.formTextareaContactMe{ 
+    font-size: 18px;
+    outline: none;  
+    height: 150px;
+    padding: 15px;
+    border-radius: 8px;
+    border: none;
+}
+.buttonSendFromContactMe{
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    background-color: #403e3c;
+    color: #ffffff;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+}
 
 .ContactMe p{  
     font-size: 20px;
 }
 
 .ContactMe p a{ 
-    color: #202020;
+    color: #ffffff;
     text-decoration: none;
 }
 
-.CopyIcon{  
-    display: none;
-    font-size: 30px;
+.linksContacMe{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
 }
 
 @media screen and (max-width:1098px) {

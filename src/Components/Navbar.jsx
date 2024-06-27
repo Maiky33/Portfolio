@@ -1,4 +1,5 @@
-import { GoThreeBars, GoChevronUp } from "react-icons/go";
+// import { GoThreeBars, GoChevronUp } from "react-icons/go";
+import {BiAlignRight, BiArrowFromBottom   } from "react-icons/bi";
 import { useState } from "react";
 import "./css/Navbar.css";
 
@@ -7,37 +8,12 @@ import "./css/Navbar.css";
 const Navbar = () => {
   const [Menu, setMenu] = useState(false);
 
-  //Scroll
-  const ClickAbout = () => {
+  const ClickitemNav = (item) => {
     //localizamos el elemento (seccion)
-    const element = document.getElementById("About");
+    const element = document.getElementById(item);
     //si existe
     if (element) {
       //hacemos scroll
-      element.scrollIntoView({ behavior: "smooth" });
-      setMenu(false);
-    }
-  };
-
-  const Clickknowledge = () => {
-    const element = document.getElementById("knowledge");
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-      setMenu(false);
-    }
-  };
-
-  const ClickExperience = () => {
-    const element = document.getElementById("Experience");
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-      setMenu(false);
-    }
-  };
-
-  const ClickContactMe = () => {
-    const element = document.getElementById("ContactMe");
-    if (element) {
       element.scrollIntoView({ behavior: "smooth" });
       setMenu(false);
     }
@@ -53,13 +29,13 @@ const Navbar = () => {
       <p className="title">MyProtfolio</p>
     
       <ul className={!Menu ?"Nav__List":"ListEnable"}>
-        <li onClick={() => ClickAbout()}>About me</li>
-        <li onClick={() => Clickknowledge()}>Skills</li>
-        <li onClick={() => ClickExperience()}>Experience</li>
-        <li onClick={() => ClickContactMe()}>Contact me</li>
+        <li onClick={() => ClickitemNav("About")}>About me</li>
+        <li onClick={() => ClickitemNav("knowledge")}>Skills</li>
+        <li onClick={() => ClickitemNav("Experience")}>Experience</li>
+        <li onClick={() => ClickitemNav("ContactMe")}>Contact me</li>
       </ul>
       
-      {Menu ? <GoChevronUp onClick={ClickMenuBurger} className="BurgerIcon" /> : <GoThreeBars onClick={ClickMenuBurger} className="BurgerIcon" />}
+      {Menu ? <BiArrowFromBottom  onClick={ClickMenuBurger} className="BurgerIcon" /> : <BiAlignRight  onClick={ClickMenuBurger} className="BurgerIcon" />}
       
     </div>
   );

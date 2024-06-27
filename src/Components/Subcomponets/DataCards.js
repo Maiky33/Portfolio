@@ -41,13 +41,18 @@ export const DataKnowledgeCard = [
     },
     {   
         id:8,
-        image: "https://skillshack.blob.core.windows.net/uploads/express.webp",
+        image: "https://ajeetchaulagain.com/static/7cb4af597964b0911fe71cb2f8148d64/87351/express-js.png",
         title: "Express.js"
     },
     {   
         id:9,
         image: "https://seeklogo.com/images/M/MySQL-logo-17DB4E5FD6-seeklogo.com.png",
         title: "MySQL"
+    },
+    {   
+        id:10,
+        image: "https://i0.wp.com/ahex.co/wp-content/uploads/2022/06/mongodb-logo.png?fit=413%2C484&ssl=1",
+        title: "Mongo Db"
     }
 ]
 
