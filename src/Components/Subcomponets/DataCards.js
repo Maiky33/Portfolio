@@ -1,7 +1,9 @@
 import Landing from "./images/landing.jpeg"
-import Movea from "./images/MoveaApp.jpeg"
+import Movea from "./images/MovieApp.jpeg"
+import EdManager from "./images/EdManager.jpeg"
 import RickandMorty from "./images/RickandMorty.jpeg"
 import TaksList from "./images/TaksList.jpeg"
+import ChatSocket from "./images/ChatSocket.jpeg"
 
 export const DataKnowledgeCard = [   
     {   
@@ -70,18 +72,6 @@ export const DataExperienceCard = [
     },
     {   
         id:2,
-        title: "Movea App",
-        image:  Movea,
-        website: "https://maiky33.github.io/Movie-App-React/",
-        repository:"https://github.com/Maiky33/Movie-App-React",
-        type: "Frontend",
-        Html: "Html",
-        Css: "Css",
-        JavaScript: "JavaScript",
-        React: "React.js"
-    },
-    {   
-        id:3,
         title: "Rick and Morty",
         image: RickandMorty,
         website: "https://maiky33.github.io/RickAndMorty/",
@@ -91,11 +81,38 @@ export const DataExperienceCard = [
         Css: "Css",
         JavaScript: "JavaScript",
         React: "React.js"
+    },{   
+        id:3,
+        title: "Ed Manager",
+        image: EdManager,
+        website: "https://maiky33.github.io/CursoRedux/",
+        repository:"https://github.com/Maiky33/CursoRedux",
+        type:"Frontend",
+        Html: "Html",
+        Css: "Css",
+        JavaScript: "JavaScript",
+        React: "React.js"
     },
     {   
-        id: 4,
+        id:4,
+        title: "Movies App",
+        image:  Movea,
+        website: "https://inlaze-movies-client.vercel.app/",
+        repository:"https://github.com/Maiky33/inlaze_Movies",
+        type: "FullStack",
+        Html: "Html",
+        Css: "Css",
+        JavaScript: "JavaScript",
+        React: "React.js",
+        Nest:"Nest.js",
+        Mongodb:"MongoDB",
+        Node:"Node"
+    },
+    {   
+        id: 5,
         title: "Tasks List",
         image: TaksList,
+        website: "",
         repository:"https://github.com/Maiky33/TaksListFullStack",
         type: "FullStack",
         Html: "Html",
@@ -105,5 +122,20 @@ export const DataExperienceCard = [
         Node: "Node",
         Express: "Express",
         MySQL: "MySQL"
+    },
+    {   
+        id: 6,
+        title: "Chat Socket io",
+        image: ChatSocket,
+        website: "",
+        repository:"https://github.com/Maiky33/ChatSocket",
+        type: "FullStack",
+        Html: "Html",
+        Css: "Css",
+        JavaScript: "JavaScript",
+        React: "React.js",
+        Node: "Node",
+        Express: "Express",
+        Mongodb:"MongoDB"
     }
 ]

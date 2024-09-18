@@ -32,6 +32,8 @@ const ExperienceCard = ({ ECard }) => {
             <div className={ECard.Node? 'item_tecnologe': 'unableItem'}>{ECard.Node}</div>
             <div className={ECard.Express? 'item_tecnologe': 'unableItem'}>{ECard.Express}</div>
             <div className={ECard.MySQL? 'item_tecnologe': 'unableItem'}>{ECard.MySQL}</div>
+            <div className={ECard.Nest? 'item_tecnologe': 'unableItem'}>{ECard.Nest}</div>
+            <div className={ECard.Mongodb? 'item_tecnologe': 'unableItem'}>{ECard.Mongodb}</div>
           </div>
         </div>
       }
