@@ -26,13 +26,13 @@ const Navbar = () => {
   return (
     <div className="Nav">
       
-      <p className="title">MyProtfolio</p>
+      <p className="title">Mi Protafolio</p>
     
       <ul className={!Menu ?"Nav__List":"ListEnable"}>
-        <li onClick={() => ClickitemNav("About")}>About me</li>
-        <li onClick={() => ClickitemNav("knowledge")}>Skills</li>
-        <li onClick={() => ClickitemNav("Experience")}>Experience</li>
-        <li onClick={() => ClickitemNav("ContactMe")}>Contact me</li>
+        <li onClick={() => ClickitemNav("About")}>Sobre mi</li>
+        <li onClick={() => ClickitemNav("knowledge")}>Habilidades</li>
+        <li onClick={() => ClickitemNav("Experience")}>Proyectos</li>
+        <li onClick={() => ClickitemNav("ContactMe")}>Contactame</li>
       </ul>
       
       {Menu ? <BiArrowFromBottom  onClick={ClickMenuBurger} className="BurgerIcon" /> : <BiAlignRight  onClick={ClickMenuBurger} className="BurgerIcon" />}

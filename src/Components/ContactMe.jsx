@@ -36,8 +36,8 @@ const ContactMe = () => {
     }
 
     emailjs
-      .sendForm('service_nbg4iqr', 'template_3258r75', formRef?.current, {
-        publicKey: 'vgd_Wl_35Lk7nY7e0',
+      .sendForm('service_4jg6ao5', 'template_esji6fo', formRef?.current, {
+        publicKey: '6B2hK0BWLC5WeJHVn',
       })
       .then(
         () => {
@@ -53,7 +53,7 @@ const ContactMe = () => {
 
   return ( 
     <div id="ContactMe" className="ContactMe"> 
-      <h2 className="ContactMeTitle">Contact Me</h2>
+      <h2 className="ContactMeTitle">Contactame</h2>
 
 
       <div className='formContactMeContainer'> 

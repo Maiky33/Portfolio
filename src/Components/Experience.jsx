@@ -7,7 +7,7 @@ const Experience = () => {
 
   return ( 
     <div id="Experience" className="Experience"> 
-      <h2 className="Experience_h1">Experience</h2>
+      <h2 className="Experience_h1">Proyectos</h2>
       <div className="Experience_gridCards"> 
         {
           DataExperienceCard.map((ECard) => <ExperienceCard ECard={ECard} key={ECard.id}/>)

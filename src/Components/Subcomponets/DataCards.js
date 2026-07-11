@@ -23,7 +23,7 @@ export const DataKnowledgeCard = [
     },
     {   
         id:4,
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/960px-React-icon.svg.png",
         title: "React.js"
     },
     {
@@ -38,7 +38,7 @@ export const DataKnowledgeCard = [
     },
     {   
         id:7,
-        image: "https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png",
+        image: "https://img.icons8.com/color/512/nodejs.png",
         title: "Node.js"
     },
     {   
@@ -48,12 +48,12 @@ export const DataKnowledgeCard = [
     },
     {   
         id:9,
-        image: "https://seeklogo.com/images/M/MySQL-logo-17DB4E5FD6-seeklogo.com.png",
+        image: "https://pngimg.com/uploads/mysql/mysql_PNG23.png",
         title: "MySQL"
     },
     {   
         id:10,
-        image: "https://i0.wp.com/ahex.co/wp-content/uploads/2022/06/mongodb-logo.png?fit=413%2C484&ssl=1",
+        image: "https://cdn.iconscout.com/icon/free/png-256/free-mongodb-icon-svg-download-png-1175138.png?f=webp&w=128",
         title: "Mongo Db"
     }
 ]
@@ -95,7 +95,7 @@ export const DataExperienceCard = [
     },
     {   
         id:4,
-        title: "Movies App",
+        title: "Inlaze Movies",
         image:  Movea,
         website: "https://inlaze-movies-client.vercel.app/",
         repository:"https://github.com/Maiky33/inlaze_Movies",

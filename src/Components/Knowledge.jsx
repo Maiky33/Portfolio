@@ -7,7 +7,7 @@ const Knowledge = () => {
 
   return (
     <div id="knowledge" className="Knowledge">
-      <h2 className="KnowledgeTitle">Skills</h2>
+      <h2 className="KnowledgeTitle">Habilidades</h2>
       <div className="GridCards">
         {DataKnowledgeCard.map((KCard) => (
           <KnowledgeCard KCard={KCard} key={KCard.id} />
