@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.c642459b.css",
-    "main.js": "/Portfolio/static/js/main.206c1d52.js",
-    "static/media/MoveaApp.jpeg": "/Portfolio/static/media/MoveaApp.84218d250216a800a363.jpeg",
-    "static/media/Fotoperfil.png": "/Portfolio/static/media/Fotoperfil.73d02acae74adb9da805.png",
+    "main.css": "/Portfolio/static/css/main.881e279f.css",
+    "main.js": "/Portfolio/static/js/main.0dc47c33.js",
+    "static/media/MovieApp.jpeg": "/Portfolio/static/media/MovieApp.f78eae1be95e59557a61.jpeg",
+    "static/media/EdManager.jpeg": "/Portfolio/static/media/EdManager.ac0ac52d8946584789dd.jpeg",
     "static/media/landing.jpeg": "/Portfolio/static/media/landing.20bd4dd91993e691e908.jpeg",
     "static/media/RickandMorty.jpeg": "/Portfolio/static/media/RickandMorty.b2d55154943aad1e2541.jpeg",
+    "static/media/Fotoperfil.jpg": "/Portfolio/static/media/Fotoperfil.267d52dd1cc3ec89d5c2.jpg",
+    "static/media/ChatSocket.jpeg": "/Portfolio/static/media/ChatSocket.166bdf675381799f1b58.jpeg",
     "static/media/TaksList.jpeg": "/Portfolio/static/media/TaksList.30b3a6bbe994deb21e49.jpeg",
     "index.html": "/Portfolio/index.html",
-    "main.c642459b.css.map": "/Portfolio/static/css/main.c642459b.css.map",
-    "main.206c1d52.js.map": "/Portfolio/static/js/main.206c1d52.js.map"
+    "main.881e279f.css.map": "/Portfolio/static/css/main.881e279f.css.map",
+    "main.0dc47c33.js.map": "/Portfolio/static/js/main.0dc47c33.js.map"
   },
   "entrypoints": [
-    "static/css/main.c642459b.css",
-    "static/js/main.206c1d52.js"
+    "static/css/main.881e279f.css",
+    "static/js/main.0dc47c33.js"
   ]
 }
